@@ -1,0 +1,43 @@
+body {
+  background: rgb(68, 120, 189);
+  color: #000;
+  font-family: monospace;
+  font-size: 2em;
+}
+header {
+  color: #000;
+  text-align: center;
+}
+.time {
+    padding: 16px;
+}
+input {
+    border: 2px solid #0e1318;
+    padding: 8px;
+}
+button {
+    border: 2px solid #0e1318;
+    font-family: monospace;
+    padding: 8px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #00f8c0;
+}
+section {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.76);
+}
+div {
+  text-align: center;
+  padding: 5px;
+}
+footer {
+  color: white;
+  text-align: center;
+  font-style: italic;
+}
