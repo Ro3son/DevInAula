@@ -1,0 +1,16 @@
+{
+  "livros": [
+    {
+      "id": 5,
+      "autor": "Felipe Rios",
+      "titulo": "Mestre Angular",
+      "anoPublicacao": 2022
+    },
+    {
+      "id": 3,
+      "autor": "Carlos Drummond",
+      "titulo": "Poesias",
+      "anoPublicacao": 0
+    }
+  ]
+}

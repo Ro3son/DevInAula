@@ -1,0 +1,22 @@
+<table class="table table-dark table-striped table-hover">
+    <thead>
+        <tr>
+            <th>Id: <input type="number" [(ngModel)]="novoLivro.id" /></th>
+            <th>Autor: <input type="text" [(ngModel)]="novoLivro.autor" /></th>
+            <th>Título: <input type="text" [(ngModel)]="novoLivro.titulo" /></th>
+            <th>Ano de Publicação: <input type="number" [(ngModel)]="novoLivro.anoPublicacao" /></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let livro of livros">
+            <td>{{ livro.id }}</td>
+            <td>{{ livro.autor }}</td>
+            <td>{{ livro.titulo }}</td>
+            <td>{{ livro.anoPublicacao }}</td>
+            <td><button (click)="delete(livro.id)">Delete</button></td>
+        </tr>
+    </tbody>
+</table>
+<button (click)="post()">Novo Livro</button>
+
+<button (click)="put()">Novo Autor</button>
