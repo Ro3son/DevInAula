@@ -1,1 +1,1 @@
-Projeto em grupo feito no DevInHouse por Gustavo, Felipe, Robson, Agnaldo.
+Exercícios em grupo durante as aulas ao vivo.
